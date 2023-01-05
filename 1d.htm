@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .load {
+            border: 16px solid black;
+            border-radius: 50%;
+            border-top: 16px solid white;
+            width: 120px;
+            height: 120px;
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media screen and (max-width:360px) {
+            h1 {
+                width: 100%;
+                text-align: center;
+                text-transform: uppercase;
+                background-color: black;
+                color: white;
+            }
+
+            .load {
+                border: 16px solid black;
+                border-radius: 50%;
+                border-top: 16px solid white;
+                width: 120px;
+                height: 120px;
+                animation: rotate 2s linear infinite;
+                margin-left: 90px;
+            }
+        }
+
+        @media screen and (max-width:560px) {
+            h1 {
+                width: 100%;
+                text-align: center;
+                text-transform: uppercase;
+                background-color: black;
+                color: white;
+            }
+
+            .load {
+                border: 16px solid black;
+                border-radius: 50%;
+                border-top: 16px solid white;
+                width: 120px;
+                height: 120px;
+                animation: rotate 2s linear infinite;
+                margin-left: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>LOADING ANIMATION</h1>
+    <div class="load"></div>
+</body>
+
+</html>
