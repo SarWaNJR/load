@@ -161,6 +161,7 @@ ul li:hover::after {
 @media screen and (min-width:878px) {
     .wwa-content {
         flex-direction: row;
+        marging:auto
     }
 }
 @media screen and (max-width:877px) {
