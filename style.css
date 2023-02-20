@@ -171,7 +171,7 @@ ul li:hover::after {
         flex-direction: column;
         position:absolute;
         top: 20vh;
-        right:10rem;
+        right:0;
         background-color: #FB8122;
         /* width: 0%; */
         padding: 1.4rem 0rem;
