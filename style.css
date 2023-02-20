@@ -159,11 +159,17 @@ ul li:hover::after {
 }
 
 @media screen and (max-width:920px) {
-    .utility-too:hover .img-library {
+      .utility-too:hover .img-library {
         opacity: 0;
+        left: 10%;
     }
+
     .utility-too {
-        width: 450px;
+        width: 400px;
+    }
+
+    .image-transition {
+        width: 200px;
     }
 }
 
