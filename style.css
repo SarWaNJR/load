@@ -158,7 +158,11 @@ ul li:hover::after {
     }
 }
 
-
+@media screen and (min-width:878px) {
+    .wwa-content {
+        flex-direction: row;
+    }
+}
 @media screen and (max-width:877px) {
     .wwa-content {
         flex-direction: column;
