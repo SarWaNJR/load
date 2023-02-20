@@ -168,7 +168,7 @@ ul li:hover::after {
     .nav-links {
         height: 60vh;
         flex-direction: column;
-        position:absolute;
+        position:fixed;
         top: 20vh;
         right: -24.4rem;
         background-color: #FB8122;
