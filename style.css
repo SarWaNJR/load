@@ -217,6 +217,9 @@ ul li:hover::after {
 .heading {
     font-size: 2em;
 }
+.heading #col {
+    color: var(--color-11);
+}
 
 .para {
     font-size: 1em;
