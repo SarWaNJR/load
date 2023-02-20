@@ -300,11 +300,6 @@ button span {
     /* margin-top: -20px;
     font-weight: 400; */
 }
-
-.wwa-content {
-    background-color: var(--color-9);
-}
-
 .course-img {
     /* clip-path: circle(33%); */
     position: relative;
