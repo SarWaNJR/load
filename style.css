@@ -417,3 +417,12 @@ button span {
     justify-content: center;
     align-items: center;
 }
+.fa-envelope {
+    font-size: 3rem;
+    padding: 30px;
+}
+
+.fa-laptop-code {
+    font-size: 3rem;
+    padding: 30px;
+}
