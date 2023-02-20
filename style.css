@@ -204,7 +204,7 @@ ul li:hover::after {
     width: 100%;
     right: 0;
     display: inline-flex;
-    height: 40vh;
+    height: 50vh;
     flex-direction: column;
     gap: 3rem;
     background-color: #FB8122;
