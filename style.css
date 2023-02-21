@@ -159,17 +159,34 @@ ul li:hover::after {
 }
 
 @media screen and (max-width:920px) {
-      .utility-too:hover .img-library {
+     .utlities-tools {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .utility-too:hover .img-library {
         opacity: 0;
         left: 10%;
     }
 
     .utility-too {
-        width: 400px;
+        width: 180px;
     }
 
     .image-transition {
-        width: 200px;
+        width: 150px;
+    }
+
+    .img-library img {
+        display: block;
+    }
+
+    .img-library {
+        position: relative;
+        left: 20px;
+        padding: 10px 0;
+        transition: 2s;
+        width: 100px;
     }
 }
 
