@@ -178,11 +178,11 @@ ul li:hover::after {
     }
 
     .utility-too {
-        width: 380px;
+        width: 680px;
     }
 
     .image-transition {
-        width: 350px;
+        width: 550px;
     }
 
     .img-library img {
@@ -194,7 +194,7 @@ ul li:hover::after {
         left: 20px;
         padding: 10px 0;
         transition: 2s;
-        width: 300px;
+        width: 500px;
     }
 }
 
