@@ -165,9 +165,11 @@ ul li:hover::after {
 }
 
 @media screen and (max-width:920px) {
-     .utlities-tools {
+     .utlities-too {
         display: flex;
-        flex-direction: row;
+        flex-direction:column;
+         align-items:center;
+         
     }
 
     .utility-too:hover .img-library {
@@ -176,11 +178,11 @@ ul li:hover::after {
     }
 
     .utility-too {
-        width: 180px;
+        width: 380px;
     }
 
     .image-transition {
-        width: 150px;
+        width: 350px;
     }
 
     .img-library img {
@@ -192,7 +194,7 @@ ul li:hover::after {
         left: 20px;
         padding: 10px 0;
         transition: 2s;
-        width: 100px;
+        width: 300px;
     }
 }
 
