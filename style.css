@@ -592,3 +592,118 @@ button span {
     color: var(--color-5);
 }
 
+/* about-us-styles */
+.student-text {
+    width: 80%;
+    padding: 2rem;
+}
+
+.student {
+    background-color: #1A2238;
+    color: var(--color-4);
+}
+
+.student:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.reg-now-heading {
+    text-align: center;
+}
+
+.reg-no-content {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #9DAAF2;
+    text-align: center;
+    font-size: 12px;
+}
+
+.reg-no-content>p {
+    font-size: 20px;
+}
+
+.course-heading>h2 {
+    color: var(--color-11);
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: double;
+}
+
+.course-table-content {
+    font-size: 15px;
+    transform: translateY(-20px);
+    text-align: center;
+    filter: drop-shadow(-20px 20px 14px);
+}
+
+.course-table td>a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    padding: 5px;
+}
+
+.course-table-content {
+    background-color: var(--color-2);
+}
+
+.course-table {
+    background-color: #1A2238;
+}
+
+.course-table-content tr:not(:first-child):hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+tr th {
+    background-color: #E1E2E2;
+}
+
+.table tr:nth-child(even) {
+    background-color: var(--color-1);
+    color: var(--color-11);
+}
+
+/* .table tr:hover:nth-child(odd) {
+    background-color: var(--color-1);
+    color: var(--color-11);
+} */
+
+
+.table tr:nth-child(odd) {
+    background-color: var(--color-3);
+    color: var(--color-2);
+}
+
+.our-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.back {
+    background-color: #E1E2E2;
+    padding: 30px;
+}
+
+.fa-location-dot {
+    color: var(--color-8);
+    margin-left: 6px;
+}
+
+.fa-location-arrow {
+    margin-right: 10px;
+    color: var(--color-2);
+    transition: transform 1s;
+    text-shadow: 0px 2px 2px black;
+}
+
+.fa-location-arrow:hover {
+    transform: translate(10px, -10px) scale(1.6);
+}
+
