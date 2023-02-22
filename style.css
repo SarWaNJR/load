@@ -506,12 +506,14 @@ button span {
     justify-content: center;
     align-items: center;
 }
-
-.utlities-tools {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
+   .utlities-tools {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-auto-rows: 290px;
+    gap: 3rem;
+    justify-content: left;
 }
+
 
 .ours {
     color: var(--color-11);
