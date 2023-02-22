@@ -14,4 +14,5 @@ $body="First Name:$Fname.\n".
        $headers="from:".$from.
                  "Reply-To:".$email;
                 mail($to,$subject,$body,$headers);
+ header(Location:contact.html);
 ?>
