@@ -598,8 +598,8 @@ button span {
 
 /* about-us-styles */
 .student-text {
-    width: 80%;
-    padding: 2rem;
+    padding:1rem;
+    width:100%;
 }
 
 .student {
