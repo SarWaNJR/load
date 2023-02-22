@@ -142,7 +142,6 @@ ul li:hover::after {
     display: none;
     cursor: pointer;
 }
-
 @media screen and (max-width:979px) {
     .font-awesome {
         width: 100%;
@@ -161,6 +160,12 @@ ul li:hover::after {
 
     .fac-content {
         display: block;
+    }
+}
+@media screen and (max-width:921px) {
+
+    .student {
+        flex-direction: column !important;
     }
 }
 
@@ -211,7 +216,6 @@ ul li:hover::after {
         flex-direction: column;
     }
 }
-
 @media screen and (max-width:767px) {
     .footer-container {
         flex-direction: column;
@@ -225,7 +229,6 @@ ul li:hover::after {
         margin-bottom: 1rem;
     }
 }
-
 @media screen and (max-width:600px) {
     .nav-links {
         height: 60vh;
@@ -268,7 +271,6 @@ ul li:hover::after {
         font-size: 2px;
     }
 }
-
 /* After JAvascript */
 .showthis {
     width: 100%;
